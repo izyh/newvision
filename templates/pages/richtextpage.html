@@ -1,0 +1,36 @@
+{% extends "pages/page.html" %}
+
+{% load mezzanine_tags %}
+{% load i18n future pages_tags %}
+{% block left_wrapper %}
+<aside class="span{% block left_col_size %}3{% endblock %} {% block left_class %}left{% endblock %}">
+    {% block left_panel %}
+		<div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
+	{% endblock %}
+</aside>
+{% endblock %}
+
+<div class="span{% block main_col_size %}7{% endblock %}">
+{% block main %}{{ block.super }}
+
+{% editable page.richtextpage.content %}
+{{ page.richtextpage.content|richtext_filters|safe }}
+{% endeditable %}
+
+{% endblock %}
+</div>
+
+{% block right_wrapper %}
+
+<aside class="span{% block right_col_size %}2{% endblock %} {% block right_class %}right{% endblock %}">
+<!--    {% nevercache %}
+    {% include "includes/user_panel.html" %}
+    {% endnevercache %}
+ 
+    {% block right_panel %}
+    {{block.super}}
+	{% endblock %}-->
+    
+	</aside>
+
+{% endblock %}

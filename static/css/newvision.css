@@ -1,0 +1,174 @@
+.detail {
+	display: block;
+	font-size: 20px;
+	color: #000;
+	}
+body>section#about {
+	padding: 35px 0 25px 0;
+	background-color: #eee;
+	}
+body>section#about .pic-container {
+	position:relative;
+	height:450px;
+	}
+body>section#about .describe {
+	padding: 70px 0 0 30px;
+	/*background: rgba(255,51,0,0.5);*/
+	/*border-radius: 12px;
+	margin: 40px 0 0 30px;*/
+	}
+body>section#about img{
+	padding:10px 10px 15px; 
+	background:white; 
+	border:1px solid #ddd; 
+	box-shadow:2px 2px 3px rgba(50, 50, 50, 0.4);
+	-webkit-transition:all 0.3s ease-in;
+	-moz-transition:all 0.3s ease-in;
+	transition:all 0.3s ease-in; 
+	position:absolute; 
+	z-index:1;
+}
+body>section#about img:hover{
+	box-shadow:15px 15px 20px rgba(50, 50, 50, 0.4); 
+	-webkit-transform:rotate(0deg) scale(1.20); 
+	-moz-transform:rotate(0deg) scale(1.20); 
+	transform:rotate(0deg) scale(1.20); 
+	z-index:2;
+}
+
+body>section#about .pic1{
+	left: 0; 
+	top: 3%; 
+	-webkit-transform: rotate(-12deg); 
+	-moz-transform: rotate(-12deg); 
+	transform: rotate(-12deg);
+}
+body>section#about .pic2{
+	right: 0; 
+	top: 3%; 
+	-webkit-transform: rotate(15deg); 
+	-moz-transform: rotate(15deg); 
+	transform: rotate(15deg);
+}
+body>section#about .pic3{
+	bottom: 0; 
+	right: 0; 
+	-webkit-transform: rotate(5deg); 
+	-moz-transform: rotate(5deg); 
+	transform: rotate(5deg);
+}
+body>section#about .pic4 {
+	bottom:3%; 
+	left:35%; 
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg); 
+	transform: rotate(-10deg);
+	}
+body>section#about .pic5 {
+	bottom:3%; 
+	left: 0; 
+	-webkit-transform: rotate(5deg); 
+	-moz-transform: rotate(5deg); 
+	transform: rotate(5deg);
+	}
+body>section#about .pic6 {
+	top: 0; 
+	right: 35%; 
+	-webkit-transform: rotate(-3deg); 
+	-moz-transform: rotate(-3deg); 
+	transform: rotate(-3deg);
+	}
+body>section#ability, 
+body>section#service {
+	padding: 0;
+	}
+body>section#ability figure,
+body>section#service figure  {
+	position: relative;
+	z-index: 1;
+	height: 630px;
+	overflow: hidden;
+	margin: 0;
+	text-align: left;
+	}
+body>section#ability figure img,
+body>section#service figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	height: -webkit-calc(100% + 50px);
+	height: calc(100% + 50px);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	}
+@keyframes verticalMove {
+	0%{
+		-webkit-transform: translate3d(0,-50px,0);
+		transform: translate3d(0,-30px,0);
+	}
+	100%{
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+body>section#ability figure img,
+body>section#service figure img {
+	-webkit-animation: verticalMove 8s linear 0s infinite alternate;
+	animation: verticalMove 8s linear 0s infinite alternate;
+	}
+body>section#ability figure figcaption,
+body>section#service figure figcaption {
+	position: absolute;
+	top: 18%;
+	width: 30%;
+	height: auto;
+	padding: 30px;
+	border-radius: 12px;
+}
+body>section#ability figure figcaption {
+	left: 4%;
+	background: rgba(255,255,255,0.5);
+	}
+body>section#service figure figcaption {
+	left: 64%;
+	background: rgba(52,152,219,0.5);
+	}
+body>section#product .item {
+	display: block;
+	margin: 15px 5px 5px 5px;
+	position: relative;
+	overflow: hidden;
+	}
+body>section#product p {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px;
+	}
+body>section#product img:hover {
+	-webkit-transition: -webkit-transform 1s;
+	transition: transform 1s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	}
+body>section#product img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	}
+.editable-original p,
+.middle p {
+	font-size: 18px;
+	line-height:30px;
+	}
+.tree .active > a {
+    background-color: #BBD6FF;
+}
+
+/* 引入bootstrap v3 版本的pagination样式取代bootstrap v2中的pagination样式 */
+.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;margin-left:-1px;line-height:1.42857143;color:#337ab7;text-decoration:none;background-color:#fff;border:1px solid #ddd}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-top-left-radius:4px;border-bottom-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-top-right-radius:4px;border-bottom-right-radius:4px}.pagination>li>a:focus,.pagination>li>a:hover,.pagination>li>span:focus,.pagination>li>span:hover{z-index:3;color:#23527c;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover{z-index:2;color:#fff;cursor:default;background-color:#337ab7;border-color:#337ab7}.pagination>.disabled>a,.pagination>.disabled>a:focus,.pagination>.disabled>a:hover,.pagination>.disabled>span,.pagination>.disabled>span:focus,.pagination>.disabled>span:hover{color:#777;cursor:not-allowed;background-color:#fff;border-color:#ddd}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px;line-height:1.3333333}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-top-left-radius:6px;border-bottom-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-top-right-radius:6px;border-bottom-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px;line-height:1.5}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-top-left-radius:3px;border-bottom-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-top-right-radius:3px;border-bottom-right-radius:3px}.pager{padding-left:0;margin:20px 0;text-align:center;list-style:none}.pager li{display:inline}.pager li>a,.pager li>span{display:inline-block;padding:5px 14px;background-color:#fff;border:1px solid #ddd;border-radius:15px}.pager li>a:focus,.pager li>a:hover{text-decoration:none;background-color:#eee}.pager .next>a,.pager .next>span{float:right}.pager .previous>a,.pager .previous>span{float:left}.pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span{color:#777;cursor:not-allowed;background-color:#fff}
+
+.page-info {
+	visibility: hidden;
+	}
+.pagin {
+	text-align: center;
+	}

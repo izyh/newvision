@@ -1,0 +1,275 @@
+{% extends "base.html" %}
+{% load i18n  mezzanine_tags staticfiles%}
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+{% block breadcrumb_wrapper %}
+{% endblock %}
+
+{% block title_wrapper %}
+{% endblock %}
+
+{% block all_content %}
+
+ <!--Slider-->
+    <section id="slide-show">
+     <div id="slider" class="sl-slider-wrapper">
+
+        <!--Slider Items-->    
+        <div class="sl-slider">
+            <!--Slider Item1-->
+            <div class="sl-slide item1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                    <div class="container">
+                        <img class="pull-right" src="{% static "media/uploads/gallery/slider1.png" %}" alt="" />
+                        <h2>柔性AMOLED显示屏</h2>
+                        <h3 class="gap">国内第一个氧化物TFT驱动的全彩柔性AMOLED显示屏</h3>
+                        <a class="btn btn-large btn-transparent" href="#">了解更多</a>
+                    </div>
+                </div>
+            </div>
+            <!--/Slider Item1-->
+
+            <!--Slider Item2-->
+            <div class="sl-slide item2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                    <div class="container">
+                        <img class="pull-right" src="{% static "media/uploads/gallery/slider2.png" %}" alt="" />
+                        <h2>OLED发光器件定制服务</h2>
+                        <h3 class="gap">超薄、可弯曲，让你的产品有更多可能！</h3>
+                        <a class="btn btn-large btn-transparent" href="#">了解更多</a>
+                    </div>
+                </div>
+            </div>
+            <!--Slider Item2-->
+
+            <!--Slider Item3-->
+            <div class="sl-slide item3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                   <div class="container">
+                    <img class="pull-right" src="{% static "media/uploads/gallery/slider3.png" %}" alt="" />
+                    <h2>自主创新&nbsp以人为本</h2>
+                    <h3 class="gap">发展健康环保显示科技</h3>
+                    <a class="btn btn-large btn-transparent" href="#">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <!--Slider Item3-->
+
+    </div>
+    <!--/Slider Items-->
+
+    <!--Slider Next Prev button-->
+    <nav id="nav-arrows" class="nav-arrows">
+        <span class="nav-arrow-prev"><i class="icon-angle-left"></i></span>
+        <span class="nav-arrow-next"><i class="icon-angle-right"></i></span> 
+    </nav>
+    <!--/Slider Next Prev button-->
+
+</div>
+<!-- /slider-wrapper -->           
+</section>
+<!--/Slider-->
+<section id="about">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span8 pic-container">
+                <img src="{% static "media/uploads/gallery/about1.jpg" %}" class="pic1">
+				<img src="{% static "media/uploads/gallery/about2.jpg" %}" class="pic2">
+				<img src="{% static "media/uploads/gallery/about3.jpg" %}" class="pic3">
+				<img src="{% static "media/uploads/gallery/about4.jpg" %}" class="pic4">
+				<img src="{% static "media/uploads/gallery/about5.jpg" %}" class="pic5">
+				<img src="{% static "media/uploads/gallery/about6.jpg" %}" class="pic6">
+            </div>
+            <div class="span4 describe">
+                <h3>
+				    &nbsp&nbsp&nbsp&nbsp新视界秉承“自主创新，发展健康环保显示科技”的企业使命，致力于新一代AMOLED 显示
+				    技术研发及应用，是中国金属氧化物薄膜晶体管、柔性OLED、印刷OLED等新型显示技术的开拓者。
+				</h3>
+				<a class="text-center detail" href="#">详情&nbsp<span class="icon-hand-right"></span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--ability-->
+<section id="ability">
+	<figure>
+		<img src="{% static "media/uploads/gallery/ability.jpg" %}">
+		<figcaption>
+		    <h3>
+			    &nbsp&nbsp&nbsp&nbsp公司拥有一支30 余人的研发团队，承担和参与10 余项国家863、国家973、广东省重大专项、广东省产学研、以及广州市重点科技项目。
+				公司拥有4000 余m2 的研发中心和完整的AMOLED 中试线，具备研发和中试生产能力，同时具有完备的材料和器件分析测试平台。
+			</h3>
+			<a class="text-center detail" href="#">详情&nbsp<span class="icon-hand-right"></span></a>
+		</figcaption>
+	</figure>
+</section>
+
+<!--Product-->
+<section id="product">
+    <div class="container">
+        <div class="center">
+            <h3>产品</h3>
+            <p class="lead">公司提供定制化的OLED发光器件相关产品。包含普通及柔性AMOLED显示器件；普通及柔性OLED照明器件等。</p>
+        </div>
+        <ul class="gallery col-4">
+            <!--Item 1-->
+            <li>
+				<div class="item">
+					<img alt="" src="{% static "media/uploads/gallery/product-item1.jpg" %}">
+				</div> 
+				<p>全彩柔性AMOLED显示屏</p>
+            </li>
+            <!--/Item 1--> 
+
+            <!--Item 2-->
+            <li>
+			    <div class="item">
+                    <img alt="" src="{% static "media/uploads/gallery/product-item2.jpg"" %}">               
+				</div>
+			<p>4.8英寸透明显示屏</p>
+            </li>
+            <!--/Item 2-->
+
+            <!--Item 3-->
+            <li>
+                <div class="item">
+                    <img alt="" src="{% static "media/uploads/gallery/product-item3.jpg" %}">
+                </div>
+			<p>PEN柔性衬底</p>
+            </li>
+            <!--/Item 3--> 
+			
+			<!--Item 4-->
+            <li>
+                <div class="item">
+                    <img alt="" src="{% static "media/uploads/gallery/product-item4.jpg" %}">
+                </div> 
+            <p>4.8英寸AMOLED全彩显示屏</p>
+            </li>
+            <!--/Item 4-->              
+
+        </ul>
+    </div>
+	<a class="text-center detail" href="#">详情&nbsp<span class="icon-hand-right"></span></a>
+
+</section>
+
+<section id="service">
+	<figure>
+		<img src="{% static "media/uploads/gallery/service.jpg" %}">
+		<figcaption>
+			<h2 class="text-center">服务</h2>
+		    <h3>
+			    &nbsp&nbsp&nbsp&nbsp公司提供AMOLED及柔性显示屏产业化技术开发和工艺技术服务，各种薄膜制备和微电路图形化服务，光电材料、薄膜、器件的表征测试服务，
+				以及光电器件测试仪器和教学演示仪器定制服务等。
+			</h3>
+			<a class="text-center detail" href="#">详情&nbsp<span class="icon-hand-right"></span></a>
+		</figcaption>
+	</figure>
+</section>
+
+<!--
+<section id="services">
+    <div class="container">
+        <div class="center gap">
+            <h3>What We Offer</h3>
+            <p class="lead">Look at some of the recent projects we have completed for our valuble clients</p>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-globe icon-medium"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Web Design</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-thumbs-up-alt icon-medium"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Graphic Design</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-leaf icon-medium icon-rounded"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Email Marketing</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gap"></div>
+
+        <div class="row-fluid">
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-shopping-cart icon-medium"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ecommerce Solution</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-globe icon-medium"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">SEO &amp; Solution</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="span4">
+                <div class="media">
+                    <div class="pull-left">
+                        <i class="icon-globe icon-medium"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Bootstrap</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+-->
+
+{% block left_wrapper %}
+{% endblock %}
+
+
+{% block main_wrapper %}
+
+
+{% endblock %}
+{% block right_wrapper %}
+{% endblock %}
+
+
+
+{% endblock %}
