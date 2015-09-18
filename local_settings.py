@@ -26,13 +26,13 @@ DATABASES = {
 ALLOWED_HOSTS = ["www.newvision-cn.com"]
 
 FABRIC = {
-    "DEPLOY_TOOL": "git",  # Deploy with "git", "hg", or "rsync"
+    "DEPLOY_TOOL": "rsync",  # Deploy with "git", "hg", or "rsync"
     "SSH_USER": "nv",  # VPS SSH username
     "HOSTS": ["123.57.148.131"],  # The IP address of your VPS
     "DOMAINS": ALLOWED_HOSTS,  # Edit domains in ALLOWED_HOSTS
     "REQUIREMENTS_PATH": "requirements.txt",  # Project's pip requirements
-    "LOCALE": "zh_CN.UTF-8",  # Should end with ".UTF-8"
-    "DB_PASS": "",  # Live database password
+    "LOCALE": "en_US.UTF-8",  # Should end with ".UTF-8"
+    "DB_PASS": "postgres",  # Live database password
     "ADMIN_PASS": "0409izyH",  # Live admin user password
     "SECRET_KEY": SECRET_KEY,
     "NEVERCACHE_KEY": NEVERCACHE_KEY,
