@@ -94,7 +94,7 @@ MANAGERS = ADMINS
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["www.newvision-cn.com"]
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -367,3 +367,6 @@ else:
     set_dynamic_settings(globals())
 
 BLOG_POST_PER_PAGE = 5
+
+SECRET_KEY = "51225549-8f54-4d2a-8ec2-a60f2991a48466442ca6-8ca5-42b0-bb49-cf613fbd84a92fe5e279-1480-40a4-8f17-9c8daa497596"
+NEVERCACHE_KEY = "96b5115f-2a94-46f6-919b-2c6d00757b8c7dc4356a-a067-4ed6-9aa2-74d82cc5c03959e36041-5a7d-4c1a-88d1-ffb150b0e2ec"
