@@ -23,7 +23,7 @@ DATABASES = {
 }
 
 # Domains for public site
-ALLOWED_HOSTS = ["www.newvision-cn.com"]
+ALLOWED_HOSTS = ["*"]
 
 FABRIC = {
     "DEPLOY_TOOL": "rsync",  # Deploy with "git", "hg", or "rsync"
