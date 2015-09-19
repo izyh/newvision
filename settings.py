@@ -111,13 +111,14 @@ USE_TZ = True
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = "en"
-LANGUAGE_CODE = "zh_CN"
+#LANGUAGE_CODE = "zh_CN"
+LANGUAGE_CODE = "zh-hans"
 
 # Supported languages
 _ = lambda s: s
 LANGUAGES = (
     ('en', _('English')),
-	('zh_CN', _('Chinese')),
+	('zh-hans', _('Chinese')),
 )
 
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
