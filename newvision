@@ -33,6 +33,12 @@ server {
         break;
     }
 	
+	location = /static/mezzanine/css/admin/form.css {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/forms;
+        # expires 30d;
+        break;
+    }
+	
 	location ~* ^/static/admin/img/admin/(arrow-up.gif|arrow-down.gif)$ {
         root /srv/newvision/;
         # expires 30d;
