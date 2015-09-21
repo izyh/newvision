@@ -111,8 +111,8 @@ USE_TZ = True
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = "en"
-#LANGUAGE_CODE = "zh_CN"
-LANGUAGE_CODE = "zh-hans"
+LANGUAGE_CODE = "zh_CN"
+#LANGUAGE_CODE = "zh-hans"
 
 # Supported languages
 _ = lambda s: s
