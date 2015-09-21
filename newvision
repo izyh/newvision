@@ -6,7 +6,72 @@ server {
     error_log  /srv/newvision/log/error_log;
 
     server_name www.newvision-cn.com;
+	server_name newvision-cn.com www.newvision-cn.com; # 配置域名
 
+    if ($host != 'www.newvision-cn.com') { 
+        rewrite ^/(.*)$ http://www.newvision-cn.com/$1 permanent;
+        break;
+    }
+	
+# 为了使用django后台
+		
+	location ~* ^/static/mezzanine/(css|js)/admin/(page_tree.css|jquery.mjs.nestedSortable.js|page_tree.js)$ {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/pages;
+        # expires 30d;
+        break;
+    }
+	
+	location = /static/mezzanine/css/admin/gallery.css {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/galleries;
+        # expires 30d;
+        break;
+    }
+	
+	location = /static/mezzanine/css/admin/settings.css {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/conf;
+        # expires 30d;
+        break;
+    }
+	
+	location = /static/mezzanine/css/admin/form.css {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/forms;
+        # expires 30d;
+        break;
+    }
+	
+	location ~* ^/static/admin/img/admin/(arrow-up.gif|arrow-down.gif)$ {
+        root /srv/newvision/;
+        # expires 30d;
+        break;
+    }
+	
+	location ~* ^/static/mezzanine/(css|tinymce|chosen|img|js)/.*$ {
+        root /usr/local/lib/python2.7/dist-packages/mezzanine/core;
+        # expires 30d;
+        break;
+    }
+
+	location ~* ^/static/admin/(css|img|js)/.*$ {
+		root /usr/local/lib/python2.7/dist-packages/django/contrib/admin;
+		#expires 30d;
+		break;
+	}
+	
+#grappelli是django的后台美化工具	
+	location ~* ^/static/grappelli/(css|img|js)/.*$ {
+        root /usr/local/lib/python2.7/dist-packages/grappelli_safe;
+        # expires 30d;
+        break;
+    }
+
+	location ~* ^/static/filebrowser/(css|img|js|uploadify)/.*$ {
+        root /usr/local/lib/python2.7/dist-packages/filebrowser_safe;
+        # expires 30d;
+        break;
+    }
+	
+#为了使用django后台
+	
     location /favicon.ico {
         root /srv/newvision/;
     }

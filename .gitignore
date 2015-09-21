@@ -3,3 +3,5 @@
 .DS_Store
 .coverage
 *.old
+log/access_log
+log/error_log

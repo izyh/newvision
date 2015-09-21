@@ -1,0 +1,412 @@
+2015-09-19 21:16:45 [14326] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:16:45 [14326] [INFO] Listening at: http://0.0.0.0:9090 (14326)
+2015-09-19 21:16:45 [14326] [INFO] Using worker: sync
+2015-09-19 21:16:45 [14329] [INFO] Booting worker with pid: 14329
+2015-09-19 21:16:45 [14329] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:16:45 [14329] [INFO] Worker exiting (pid: 14329)
+2015-09-19 21:16:46 [14326] [INFO] Shutting down: Master
+2015-09-19 21:16:46 [14326] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:16:47 [14330] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:16:47 [14330] [INFO] Listening at: http://0.0.0.0:9090 (14330)
+2015-09-19 21:16:47 [14330] [INFO] Using worker: sync
+2015-09-19 21:16:47 [14333] [INFO] Booting worker with pid: 14333
+2015-09-19 21:16:47 [14333] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:16:47 [14333] [INFO] Worker exiting (pid: 14333)
+2015-09-19 21:16:47 [14330] [INFO] Shutting down: Master
+2015-09-19 21:16:47 [14330] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:16:49 [14334] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:16:49 [14334] [INFO] Listening at: http://0.0.0.0:9090 (14334)
+2015-09-19 21:16:49 [14334] [INFO] Using worker: sync
+2015-09-19 21:16:49 [14337] [INFO] Booting worker with pid: 14337
+2015-09-19 21:16:49 [14337] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:16:49 [14337] [INFO] Worker exiting (pid: 14337)
+2015-09-19 21:16:50 [14334] [INFO] Shutting down: Master
+2015-09-19 21:16:50 [14334] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:16:53 [14338] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:16:53 [14338] [INFO] Listening at: http://0.0.0.0:9090 (14338)
+2015-09-19 21:16:53 [14338] [INFO] Using worker: sync
+2015-09-19 21:16:53 [14341] [INFO] Booting worker with pid: 14341
+2015-09-19 21:16:53 [14341] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:16:53 [14341] [INFO] Worker exiting (pid: 14341)
+2015-09-19 21:16:53 [14338] [INFO] Shutting down: Master
+2015-09-19 21:16:53 [14338] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:08 [14346] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:08 [14346] [INFO] Listening at: http://0.0.0.0:9090 (14346)
+2015-09-19 21:17:08 [14346] [INFO] Using worker: sync
+2015-09-19 21:17:08 [14349] [INFO] Booting worker with pid: 14349
+2015-09-19 21:17:08 [14349] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:08 [14349] [INFO] Worker exiting (pid: 14349)
+2015-09-19 21:17:08 [14346] [INFO] Shutting down: Master
+2015-09-19 21:17:08 [14346] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:10 [14350] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:10 [14350] [INFO] Listening at: http://0.0.0.0:9090 (14350)
+2015-09-19 21:17:10 [14350] [INFO] Using worker: sync
+2015-09-19 21:17:10 [14353] [INFO] Booting worker with pid: 14353
+2015-09-19 21:17:10 [14353] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:10 [14353] [INFO] Worker exiting (pid: 14353)
+2015-09-19 21:17:10 [14350] [INFO] Shutting down: Master
+2015-09-19 21:17:10 [14350] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:12 [14354] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:12 [14354] [INFO] Listening at: http://0.0.0.0:9090 (14354)
+2015-09-19 21:17:12 [14354] [INFO] Using worker: sync
+2015-09-19 21:17:12 [14357] [INFO] Booting worker with pid: 14357
+2015-09-19 21:17:12 [14357] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:12 [14357] [INFO] Worker exiting (pid: 14357)
+2015-09-19 21:17:12 [14354] [INFO] Shutting down: Master
+2015-09-19 21:17:12 [14354] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:16 [14358] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:16 [14358] [INFO] Listening at: http://0.0.0.0:9090 (14358)
+2015-09-19 21:17:16 [14358] [INFO] Using worker: sync
+2015-09-19 21:17:16 [14361] [INFO] Booting worker with pid: 14361
+2015-09-19 21:17:16 [14361] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:16 [14361] [INFO] Worker exiting (pid: 14361)
+2015-09-19 21:17:16 [14358] [INFO] Shutting down: Master
+2015-09-19 21:17:16 [14358] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:31 [14364] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:31 [14364] [INFO] Listening at: http://0.0.0.0:9090 (14364)
+2015-09-19 21:17:31 [14364] [INFO] Using worker: sync
+2015-09-19 21:17:31 [14367] [INFO] Booting worker with pid: 14367
+2015-09-19 21:17:31 [14367] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:31 [14367] [INFO] Worker exiting (pid: 14367)
+2015-09-19 21:17:31 [14364] [INFO] Shutting down: Master
+2015-09-19 21:17:31 [14364] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:32 [14368] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:32 [14368] [INFO] Listening at: http://0.0.0.0:9090 (14368)
+2015-09-19 21:17:32 [14368] [INFO] Using worker: sync
+2015-09-19 21:17:32 [14371] [INFO] Booting worker with pid: 14371
+2015-09-19 21:17:32 [14371] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:32 [14371] [INFO] Worker exiting (pid: 14371)
+2015-09-19 21:17:33 [14368] [INFO] Shutting down: Master
+2015-09-19 21:17:33 [14368] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:35 [14372] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:35 [14372] [INFO] Listening at: http://0.0.0.0:9090 (14372)
+2015-09-19 21:17:35 [14372] [INFO] Using worker: sync
+2015-09-19 21:17:35 [14375] [INFO] Booting worker with pid: 14375
+2015-09-19 21:17:35 [14375] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:35 [14375] [INFO] Worker exiting (pid: 14375)
+2015-09-19 21:17:35 [14372] [INFO] Shutting down: Master
+2015-09-19 21:17:35 [14372] [INFO] Reason: Worker failed to boot.
+2015-09-19 21:17:38 [14376] [INFO] Starting gunicorn 0.13.4
+2015-09-19 21:17:38 [14376] [INFO] Listening at: http://0.0.0.0:9090 (14376)
+2015-09-19 21:17:38 [14376] [INFO] Using worker: sync
+2015-09-19 21:17:38 [14379] [INFO] Booting worker with pid: 14379
+2015-09-19 21:17:38 [14379] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-19 21:17:38 [14379] [INFO] Worker exiting (pid: 14379)
+2015-09-19 21:17:39 [14376] [INFO] Shutting down: Master
+2015-09-19 21:17:39 [14376] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:09 [15201] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:09 [15201] [INFO] Listening at: http://0.0.0.0:9090 (15201)
+2015-09-20 17:53:09 [15201] [INFO] Using worker: sync
+2015-09-20 17:53:09 [15204] [INFO] Booting worker with pid: 15204
+2015-09-20 17:53:09 [15204] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:09 [15204] [INFO] Worker exiting (pid: 15204)
+2015-09-20 17:53:10 [15201] [INFO] Shutting down: Master
+2015-09-20 17:53:10 [15201] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:11 [15205] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:11 [15205] [INFO] Listening at: http://0.0.0.0:9090 (15205)
+2015-09-20 17:53:11 [15205] [INFO] Using worker: sync
+2015-09-20 17:53:11 [15208] [INFO] Booting worker with pid: 15208
+2015-09-20 17:53:11 [15208] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:11 [15208] [INFO] Worker exiting (pid: 15208)
+2015-09-20 17:53:11 [15205] [INFO] Shutting down: Master
+2015-09-20 17:53:11 [15205] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:13 [15209] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:13 [15209] [INFO] Listening at: http://0.0.0.0:9090 (15209)
+2015-09-20 17:53:13 [15209] [INFO] Using worker: sync
+2015-09-20 17:53:13 [15212] [INFO] Booting worker with pid: 15212
+2015-09-20 17:53:13 [15212] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:13 [15212] [INFO] Worker exiting (pid: 15212)
+2015-09-20 17:53:14 [15209] [INFO] Shutting down: Master
+2015-09-20 17:53:14 [15209] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:17 [15213] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:17 [15213] [INFO] Listening at: http://0.0.0.0:9090 (15213)
+2015-09-20 17:53:17 [15213] [INFO] Using worker: sync
+2015-09-20 17:53:17 [15216] [INFO] Booting worker with pid: 15216
+2015-09-20 17:53:17 [15216] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:17 [15216] [INFO] Worker exiting (pid: 15216)
+2015-09-20 17:53:17 [15213] [INFO] Shutting down: Master
+2015-09-20 17:53:17 [15213] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:27 [15218] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:27 [15218] [INFO] Listening at: http://0.0.0.0:9090 (15218)
+2015-09-20 17:53:27 [15218] [INFO] Using worker: sync
+2015-09-20 17:53:27 [15221] [INFO] Booting worker with pid: 15221
+2015-09-20 17:53:27 [15221] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:27 [15221] [INFO] Worker exiting (pid: 15221)
+2015-09-20 17:53:27 [15218] [INFO] Shutting down: Master
+2015-09-20 17:53:27 [15218] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:28 [15222] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:28 [15222] [INFO] Listening at: http://0.0.0.0:9090 (15222)
+2015-09-20 17:53:28 [15222] [INFO] Using worker: sync
+2015-09-20 17:53:28 [15225] [INFO] Booting worker with pid: 15225
+2015-09-20 17:53:28 [15225] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:28 [15225] [INFO] Worker exiting (pid: 15225)
+2015-09-20 17:53:29 [15222] [INFO] Shutting down: Master
+2015-09-20 17:53:29 [15222] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:31 [15226] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:31 [15226] [INFO] Listening at: http://0.0.0.0:9090 (15226)
+2015-09-20 17:53:31 [15226] [INFO] Using worker: sync
+2015-09-20 17:53:31 [15229] [INFO] Booting worker with pid: 15229
+2015-09-20 17:53:31 [15229] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:31 [15229] [INFO] Worker exiting (pid: 15229)
+2015-09-20 17:53:31 [15226] [INFO] Shutting down: Master
+2015-09-20 17:53:31 [15226] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:53:34 [15230] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:53:34 [15230] [INFO] Listening at: http://0.0.0.0:9090 (15230)
+2015-09-20 17:53:34 [15230] [INFO] Using worker: sync
+2015-09-20 17:53:34 [15233] [INFO] Booting worker with pid: 15233
+2015-09-20 17:53:34 [15233] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/gunicorn/arbiter.py", line 456, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/pymodules/python2.7/gunicorn/workers/base.py", line 100, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/base.py", line 101, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/pymodules/python2.7/gunicorn/app/wsgiapp.py", line 24, in load
+    return util.import_app(self.app_uri)
+  File "/usr/lib/pymodules/python2.7/gunicorn/util.py", line 241, in import_app
+    __import__(module)
+ImportError: No module named newvision.wsgi
+2015-09-20 17:53:34 [15233] [INFO] Worker exiting (pid: 15233)
+2015-09-20 17:53:35 [15230] [INFO] Shutting down: Master
+2015-09-20 17:53:35 [15230] [INFO] Reason: Worker failed to boot.
+2015-09-20 17:56:20 [15273] [INFO] Starting gunicorn 0.13.4
+2015-09-20 17:56:20 [15273] [INFO] Listening at: http://0.0.0.0:9090 (15273)
+2015-09-20 17:56:20 [15273] [INFO] Using worker: sync
+2015-09-20 17:56:20 [15276] [INFO] Booting worker with pid: 15276
+2015-09-20 18:07:21 [15288] [INFO] Starting gunicorn 0.13.4
+2015-09-20 18:07:21 [15288] [INFO] Listening at: http://0.0.0.0:9090 (15288)
+2015-09-20 18:07:21 [15288] [INFO] Using worker: sync
+2015-09-20 18:07:21 [15291] [INFO] Booting worker with pid: 15291
+2015-09-20 19:27:26 [15416] [INFO] Starting gunicorn 0.13.4
+2015-09-20 19:27:26 [15416] [INFO] Listening at: http://0.0.0.0:9090 (15416)
+2015-09-20 19:27:26 [15416] [INFO] Using worker: gevent
+2015-09-20 19:27:26 [15419] [INFO] Booting worker with pid: 15419
