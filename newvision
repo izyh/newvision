@@ -5,13 +5,12 @@ server {
     access_log /srv/newvision/log/access_log;
     error_log  /srv/newvision/log/error_log;
 
-    server_name www.newvision-cn.com;
 	server_name newvision-cn.com www.newvision-cn.com; # 配置域名
 
-    if ($host != 'www.newvision-cn.com') { 
-        rewrite ^/(.*)$ http://www.newvision-cn.com/$1 permanent;
-        break;
-    }
+#    if ($host != 'www.newvision-cn.com') { 
+#        rewrite ^/(.*)$ http://www.newvision-cn.com/$1 permanent;
+#        break;
+#    }
 	
 # 为了使用django后台
 		

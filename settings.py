@@ -371,3 +371,5 @@ BLOG_POST_PER_PAGE = 5
 
 SECRET_KEY = "51225549-8f54-4d2a-8ec2-a60f2991a48466442ca6-8ca5-42b0-bb49-cf613fbd84a92fe5e279-1480-40a4-8f17-9c8daa497596"
 NEVERCACHE_KEY = "96b5115f-2a94-46f6-919b-2c6d00757b8c7dc4356a-a067-4ed6-9aa2-74d82cc5c03959e36041-5a7d-4c1a-88d1-ffb150b0e2ec"
+RICHTEXT_ALLOWED_STYLES = ('margin-top', 'margin-bottom', 'margin-left', 'margin-right', 'float', 'vertical-align', 'border', 'margin', 'text-align')
+RICHTEXT_ALLOWED_TAGS = ('a', 'abbr', 'acronym', 'address', 'area', 'article', 'aside', 'b', 'bdo', 'big', 'blockquote', 'br', 'button', 'caption', 'center', 'cite', 'code', 'col', 'colgroup', 'dd', 'del', 'dfn', 'dir', 'div', 'dl', 'dt', 'em', 'fieldset', 'figure', 'font', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'header', 'hr', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'label', 'legend', 'li', 'map', 'men', 'nav', 'ol', 'optgroup', 'option', 'p', 'pre', 'q', 's', 'samp', 'section', 'select', 'small', 'span', 'strike', 'strong', 'sub', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'tr', 'tt', '', 'ul', 'var', 'wbr')

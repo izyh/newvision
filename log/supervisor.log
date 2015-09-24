@@ -410,3 +410,11 @@ ImportError: No module named newvision.wsgi
 2015-09-20 19:27:26 [15416] [INFO] Listening at: http://0.0.0.0:9090 (15416)
 2015-09-20 19:27:26 [15416] [INFO] Using worker: gevent
 2015-09-20 19:27:26 [15419] [INFO] Booting worker with pid: 15419
+2015-09-22 10:30:44 [18158] [INFO] Starting gunicorn 0.13.4
+2015-09-22 10:30:44 [18158] [INFO] Listening at: http://0.0.0.0:9090 (18158)
+2015-09-22 10:30:44 [18158] [INFO] Using worker: gevent
+2015-09-22 10:30:44 [18161] [INFO] Booting worker with pid: 18161
+2015-09-22 11:57:10 [18309] [INFO] Starting gunicorn 0.13.4
+2015-09-22 11:57:10 [18309] [INFO] Listening at: http://0.0.0.0:9090 (18309)
+2015-09-22 11:57:10 [18309] [INFO] Using worker: gevent
+2015-09-22 11:57:10 [18312] [INFO] Booting worker with pid: 18312

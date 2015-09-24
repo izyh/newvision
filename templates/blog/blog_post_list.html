@@ -48,13 +48,13 @@ $(function() {
 {% endblock %}
 
 {% block left_wrapper %}
-<aside class="span{% block left_col_size %}3{% endblock %} {% block left_class %}left{% endblock %}">
+<aside class="span{% block left_col_size %}2{% endblock %} {% block left_class %}left{% endblock %}">
     {% block left_panel %}
 		<div class="panel panel-default tree">{% page_menu "pages/menus/tree.html" %}</div>
 	{% endblock %}
 </aside>
 {% endblock %}
-<div class="span{% block main_col_size %}7{% endblock %}">
+<div class="span{% block main_col_size %}8{% endblock %}">
 {% block main %}
 
 {% if tag or category or year or month or author %}
